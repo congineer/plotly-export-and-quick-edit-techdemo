@@ -16,11 +16,11 @@
 
 <h1 align="center">TECH DEMO</h1>
 
-# Advanced [Plotly.js](https://plotly.com/javascript/) in-plot [State Hydration](https://en.wikipedia.org/wiki/Hydration_(web_development)) <br> for custom ModeBar Button Modes
+# Advanced [Plotly.js](https://plotly.com/javascript/) in-plot [State Hydration](<https://en.wikipedia.org/wiki/Hydration_(web_development)>) <br> for custom ModeBar Button Modes
 
-- Multiple Export to Vector SVG, PDF, and Alpha Channel WEBP, PNG files
-- Quick Edit of Title, Axes, Ranges, Legend position and Legend items
-- Modes-aware Light Mode Toggle
+- **Export Mode** to vector SVG, PDF, and alpha channel WEBP, PNG files
+- **Quick Edit** of title, axes, ranges, legend position and legend items
+- Modes-aware **Light Mode** toggle
 
 ---
 
