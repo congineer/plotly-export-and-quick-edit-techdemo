@@ -8,8 +8,7 @@
       <source width="400px" media="(prefers-color-scheme: dark)"
         srcset="assets/plotly_logo/plotly_logo_dark_mode.png">
       <img width="400px" alt="Shows Plotly logo in light mode"
-        src="assets/plotly_logo/plotly_logo_light_mode.png"
-        onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/congineer/plotly-export-and-quick-edit-techdemo/master/assets/plotly_logo/plotly_logo_light_mode.png'"
+        src="https://raw.githubusercontent.com/congineer/plotly-export-and-quick-edit-techdemo/master/assets/plotly_logo/plotly_logo_light_mode.png"
       >
     </picture>
   </a>
