@@ -16,11 +16,11 @@
 
 <h1 align="center">TECH DEMO</h1>
 
-# Advanced [Plotly.js](https://plotly.com/javascript/) in-plot State Hydration <br> for custom ModeBar Button Modes
+# Advanced [Plotly.js](https://plotly.com/javascript/) in-plot [State Hydration](https://en.wikipedia.org/wiki/Hydration_(web_development)) <br> for custom ModeBar Button Modes
 
-- Multi Export to Vector SVG, PDF, and Alpha Channel WEBP, PNG;
-- Quick Edit of Title, Axes, Ranges, Legend position and Legend items;
-- Modes-aware Light Mode Toggle;
+- Multiple Export to Vector SVG, PDF, and Alpha Channel WEBP, PNG files
+- Quick Edit of Title, Axes, Ranges, Legend position and Legend items
+- Modes-aware Light Mode Toggle
 
 ---
 
@@ -35,27 +35,25 @@
 
 ## Context
 
-The below demonstrated functionality is a recent development effort towards the CemGEMS application release v0.8.0 [cemgems.app](https://cemgems.app)
+The functionality demonstrated below is partial result of a recent development effort toward the CemGEMS web application release v.0.8.0 [cemgems.app](https://cemgems.app) aimed at implementing:
 
-The goals of the v0.8.0 release are set to be an implementation of:
-
-- a maximum achievable responsiveness of data input tables and interactive charts/plots;
-- a statefull "quick" and/or "full" editability of interactive charts/plots.
+- the maximum achievable responsiveness of data input tables and interactive charts/plots
+- the stateful "quick" and/or "full" editability of interactive charts/plots
 
 All charts have been rewritten from pure [D3.js](https://github.com/d3/d3) and/or [DC.js](https://github.com/dc-js/dc.js) to [Plotly.js](https://github.com/plotly/plotly.js/).
 
-A framework-agnostic state hydration architecture has been experimented on, found, and implemented for the custom functionality Plotly ModeBar buttons.
+After substantial experimentation, a framework-agnostic state hydration architecture was found and implemented for the customized Plotly ModeBar buttons.
 
 ---
 
-### Plotly Alpha Export Tidbits
+### Plotly Alpha Channel Export Tidbits
 
     - PNG and WEBP Export is always transparent, i.e. has no background
-    - Light Mode Export transparency is achieved via white background outside of Plotly graph div
+    - Light Mode Export transparency is achieved via white background outside of the Plotly graph div
 
 ![Plotly Alpha Export Techdemo](assets/plotly_export_to_alpha/Plotly_demo_alpha_export_Recording_2023-05-08_at_19.04.40.gif)
 
-Lookup exports:
+Exported files:
 
 - [Light mode PNG](assets/plotly_export_to_alpha/CemGEMS_PlotView_CEM-IV-A_min_4a_Hydration-MPK_Time-log_tlog__default_Time-log_Aqueous-totals_CompositeLines_lightMode_1938x1400px.png)
 - [Dark mode WEBP](assets/plotly_export_to_alpha/CemGEMS_PlotView_CEM-IV-A_min_4a_Hydration-MPK_Time-log_tlog__default_Time-log_Aqueous-totals_CompositeLines_darkMode_1938x1400px.webp)
@@ -66,11 +64,11 @@ Lookup exports:
 
     - SVG Export is always transparent, i.e. has no background
     - PDF Export in dark mode is set to pick the app background (no background in light mode)
-    - Export and Light Modes are set to persist on any layout or data change, e.g. axis, chart type, etc.
+    - Export and Light Modes are set to persist on any change of layout or data, e.g. axis, chart type, etc.
 
 ![Plotly Vector Export Techdemo](assets/plotly_export_to_vector/Plotly_demo_vector_export_Recording_2023-05-06_at_17.36.49.gif)
 
-Lookup exports:
+Exported files:
 
 - [Light mode SVG](assets/plotly_export_to_vector/CemGEMS_PlotView_CEM-IV-A_min_4a_Ingress_Add-Salts_carbonation__default_Lead-linear_Masses_StackedAreas_lightMode_1938x1400px.svg)
 - [Dark mode PDF](assets/plotly_export_to_vector/CemGEMS_PlotView_CEM-IV-A_min_4a_Ingress_Add-Salts_carbonation__default_Lead-linear_Masses_StackedAreas_darkMode_678x490px.pdf)
@@ -86,6 +84,6 @@ Lookup exports:
 
 ![Plotly Quick Edit Techdemo](assets/plotly_quick_edit/Plotly_demo_quick_edit_Recording_2023-05-08_at_19.22.55.gif)
 
-Lookup exports:
+Exported file:
 
 - [Light mode PDF](assets/plotly_quick_edit/CemGEMS_PlotView_CEM-IV-A_min_4a_Leaching_Add-Water_lwater__default_Lead-log_Volumes_StackedAreas_lightMode_678x490px.pdf)
